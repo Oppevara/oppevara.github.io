@@ -1,0 +1,35 @@
+---
+---
+
+@import "{{ site.theme }}";
+header {
+  background: #139415;
+}
+
+
+.wrapper {
+  width: 750px;
+}
+
+#banner {
+  margin-right: 550px;
+}
+
+#banner .fork {
+  margin-left: -375px;
+}
+
+nav {
+  margin-left: -630px;
+}
+
+section {
+  width: 850px;
+}
+
+
+@media print, screen and (max-width: 1060px) {
+  section {
+    max-width: inital;
+  }
+}
